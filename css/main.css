@@ -1,0 +1,57 @@
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.learn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.image-box {
+  display: flex;
+  align-items: center;
+}
+.credit-pic {
+  max-width: 100%;
+  padding: 1em;
+}
+
+.info-col {
+  background-color: var(--bs-primary);
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  width: 80%;
+}
+.content li {
+  list-style-type: '- ';
+  align-self: flex-start;
+  margin-top: 1em;
+  width: 73%;
+}
+
+.learn-more {
+  margin-top: 3rem;
+  border-width: 4px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  padding: .4em;
+  font-size: 1.5em;
+  padding-bottom: .5em;
+}
+
+.right-arrow {
+  float: right;
+  font-weight: 1000;
+  margin-right: .4em;
+}
