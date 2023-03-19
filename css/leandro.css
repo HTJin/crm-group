@@ -5,15 +5,15 @@
 /*
 *Start Global Styling
 */
-body {
+#leandro body {
     font-family: 'Poppins', sans-serif;
 }
 
-a {
+#leandro a {
     text-decoration: none;
 }
 
-.btn {
+#leandro .btn {
     padding: 13px 22px;
     font-size: 15px;
     line-height: 15px;
@@ -23,7 +23,7 @@ a {
     border: 2px solid #306EFF;
 }
 
-.btn-dark {
+#leandro .btn-dark {
     background-color: #306EFF;
     border-color: #306EFF;
     color: #ffff;
@@ -37,7 +37,7 @@ a {
  * Start Header Styling
  */
  
-header {
+#leandro header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,32 +45,32 @@ header {
     margin: 0 auto;
 }
 
-.nav-links {
+#leandro .nav-links {
     display: flex;
     padding-left: 0;
     list-style-type: none;
     gap: 37px;
 }
 
-.nav-links a {
+#leandro .nav-links a {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     color: black;
 }
 
-.nav-links .btn {
+#leandro .nav-links .btn {
     font-size: 13px;
     padding: 10px 18px;
 }
 
-.nav-links .btn1 {
+#leandro .nav-links .btn1 {
     background-color: #306EFF;
     color: white;
     font-weight: 800;
 }
 
-.nav-links .btn2 {
+#leandro .nav-links .btn2 {
     background-color: white;
     color: #306EFF;
     font-weight: 800;
@@ -83,7 +83,7 @@ header {
 /*
  * Start Hero Styling
 */
-.hero {
+#leandro .hero {
     max-width: 100%;
     margin: 40px auto;
     margin-left: 80px;
@@ -94,11 +94,11 @@ header {
     gap: 0px;
 }
 
-.hero-content {
+#leandro .hero-content {
     max-width: 100%;
 }
 
-.hero h1 {
+#leandro .hero h1 {
     font-size: 65px;
     font-weight: 600;
     line-height: 80px;
@@ -107,7 +107,7 @@ header {
     margin-top: 0px;
 }
 
-.hero p {
+#leandro .hero p {
     font-size: 35px;
     font-weight: 600;
     line-height: 32px;
@@ -117,7 +117,7 @@ header {
     margin-right: 0px;
 }
 
-.hero .sub {
+#leandro .hero .sub {
     font-size: 20px;
     font-weight: 600;
     line-height: 32px;
@@ -125,7 +125,7 @@ header {
     margin: 0px 100px 20px 0px;
 }
 
-span {
+#leandro span {
     font-size: 15px;
     font-weight: 600;
     line-height: 32px;
@@ -134,7 +134,7 @@ span {
     margin-top: 0;
 }
 
-.hero .double {
+#leandro .hero .double {
     font-size: 18px;
     font-weight: 900;
     line-height: 32px;
@@ -145,7 +145,7 @@ span {
     padding-right: 0px;
 }
 
-.hero .in {
+#leandro .hero .in {
     font-size: 18px;
     font-weight: 900;
     line-height: 32px;
@@ -154,19 +154,19 @@ span {
     margin-top: 0;
 }
 
-.hero .btn-row {
+#leandro .hero .btn-row {
     display: flex;
     gap: 8px;
     margin-bottom: 20px;
 }
 
-.hero-image {
+#leandro .hero-image {
     max-width: 100%;
     width: 900px;
     margin-right: 40px;
 }
 
-.hero .free14 {
+#leandro .hero .free14 {
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
@@ -177,7 +177,7 @@ span {
     margin-top: 15px;
 }
 
-.hero .balls {
+#leandro .hero .balls {
     color: #306EFF;
     margin-right: 10px;
     margin-left: 10px;
@@ -185,7 +185,7 @@ span {
 }
 
 @media (max-width: 1000px) {
-    .hero {
+    #leandro .hero {
         flex-direction: column-reverse;
     }
 }
@@ -196,23 +196,23 @@ span {
 /*
 * Start Features Styling
 */
-.linebreak {
+#leandro .linebreak {
     margin: auto;
     width: 900px;
     margin-bottom: 30px;
 }
 
-.features {
+#leandro .features {
     max-width: 1281px;
     margin: 0 auto;
 }
 
-.features-content {
+#leandro .features-content {
     max-width: 800px;
     margin: 69px auto 73px;
 }
 
-.features-content h2 {
+#leandro .features-content h2 {
     font-size: 30px;
     line-height: 68px;
     font-weight: 800;
@@ -221,7 +221,7 @@ span {
     margin-bottom: 21px;
 }
 
-.features-content p {
+#leandro .features-content p {
     font-size: 17px;
     line-height: 27px;
     font-weight: 500;
@@ -231,7 +231,7 @@ span {
     margin: 0 auto;
 }
 
-.features-cards {
+#leandro .features-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0px;
@@ -239,7 +239,7 @@ span {
     margin: auto;
 }
 
-.features-card {
+#leandro .features-card {
     margin: 30px 45px 10px;
     border-radius: 10px;
     border: 1px solid black;
@@ -251,19 +251,19 @@ span {
     justify-content: flex-end;
 }
 
-.money {
+#leandro .money {
     background-color: #306EFF;
 }
 
-.person {
+#leandro .person {
     background-color: white;
 }
 
-.graph {
+#leandro .graph {
     background-color: white;
 }
 
-.features-card h3 {
+#leandro .features-card h3 {
     font-size: 15px;
     margin-top: 0px;
     font-weight: 100;
@@ -271,7 +271,7 @@ span {
     text-align: center;
 }
 
-.money h3 {
+#leandro .money h3 {
     display: flex;
     justify-content: center;
     font-size: 15px;
@@ -279,23 +279,23 @@ span {
     padding-top: 12px;
 }
 
-.features-card img {
+#leandro .features-card img {
     padding-bottom: 20px;
 }
 
-.money img {
+#leandro .money img {
     border: 1px solid #306EFF;
     background-color: white;
     padding: 8px 5px 8px 5px;
     border-radius: 40px;
 }
 
-.arrows img {
+#leandro .arrows img {
     margin-bottom: 10px;
 }
 
 @media (max-width: 400px) {
-    .features-cards {
+    #leandro .features-cards {
         display: flex;
         flex-direction: column;
     }
