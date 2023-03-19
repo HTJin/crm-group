@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  height: 89dvh;
+  height: 100%;
 }
 
 .image-box {
@@ -33,13 +33,14 @@
   flex-direction: column;
   margin: 5%;
   width: 80%;
-  padding-top: 2.5em;
+  padding-top: 3em;
+  padding-bottom: 6em;
 }
 .content li {
   list-style-type: '- ';
   align-self: flex-start;
   margin-top: 1em;
-  width: 70%;
+  width: 67%;
 }
 
 .learn-more {
@@ -50,7 +51,6 @@
   font-size: 1.5em;
   padding-bottom: .4em;
   margin-top: .5em;
-  margin-bottom: 5em;
   font-weight: 300;
 }
 .right-arrow {
@@ -64,7 +64,7 @@
   border-width: 3px;
   border-radius: 5px;
   font-weight: 500;
-  margin-bottom: 6em;
+  margin-bottom: 7em;
 }
 
 .solution-container {
@@ -80,8 +80,14 @@
 .solution {
   position: relative;
   width: 13vw;
+  z-index: -99;
 }
 .solution-icon {
   position: absolute;
   width: 7vw;
+}
+.fontawesome {
+  font-size: 6vw;
+  color: #0850F8;
+  z-index: 1;
 }
