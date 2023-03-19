@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+*Start Global Styling
+*/
+#leandro body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#leandro a {
+    text-decoration: none;
+}
+
+#leandro .btn {
+    padding: 13px 22px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #306EFF;
+    border-radius: 14px;
+    border: 2px solid #306EFF;
+}
+
+#leandro .btn-dark {
+    background-color: #306EFF;
+    border-color: #306EFF;
+    color: #ffff;
+}
+
+/*
+*End Global Styling
+*/
+
+/*
+ * Start Header Styling
+ */
+ 
+#leandro header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1277px;
+    margin: 0 auto;
+}
+
+#leandro .nav-links {
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+    gap: 37px;
+}
+
+#leandro .nav-links a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: black;
+}
+
+#leandro .nav-links .btn {
+    font-size: 13px;
+    padding: 10px 18px;
+}
+
+#leandro .nav-links .btn1 {
+    background-color: #306EFF;
+    color: white;
+    font-weight: 800;
+}
+
+#leandro .nav-links .btn2 {
+    background-color: white;
+    color: #306EFF;
+    font-weight: 800;
+}
+
+/*
+ * End Header Styling
+ */
+
+/*
+ * Start Hero Styling
+*/
+#leandro .hero {
+    max-width: 100%;
+    margin: 40px auto;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    padding: 0px 200px 0px 300px;
+    display: flex;
+    align-items: top;
+    gap: 0px;
+}
+
+#leandro .hero-content {
+    max-width: 100%;
+}
+
+#leandro .hero h1 {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 80px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#leandro .hero p {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 32px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-right: 0px;
+}
+
+#leandro .hero .sub {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    color: grey;
+    margin: 0px 100px 20px 0px;
+}
+
+#leandro span {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 32px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+#leandro .hero .double {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 32px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#leandro .hero .in {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 32px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+#leandro .hero .btn-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+#leandro .hero-image {
+    max-width: 100%;
+    width: 900px;
+    margin-right: 40px;
+}
+
+#leandro .hero .free14 {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 12px;
+    color: black;
+    margin-top: 15px;
+}
+
+#leandro .hero .balls {
+    color: #306EFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+    #leandro .hero {
+        flex-direction: column-reverse;
+    }
+}
+
+/*
+ * End Hero Styling
+*/
+/*
+* Start Features Styling
+*/
+#leandro .linebreak {
+    margin: auto;
+    width: 900px;
+    margin-bottom: 30px;
+}
+
+#leandro .features {
+    max-width: 1281px;
+    margin: 0 auto;
+}
+
+#leandro .features-content {
+    max-width: 800px;
+    margin: 69px auto 73px;
+}
+
+#leandro .features-content h2 {
+    font-size: 30px;
+    line-height: 68px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+#leandro .features-content p {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#leandro .features-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    max-width: 75%;
+    margin: auto;
+}
+
+#leandro .features-card {
+    margin: 30px 45px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 140px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#leandro .money {
+    background-color: #306EFF;
+}
+
+#leandro .person {
+    background-color: white;
+}
+
+#leandro .graph {
+    background-color: white;
+}
+
+#leandro .features-card h3 {
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+}
+
+#leandro .money h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    padding-top: 12px;
+}
+
+#leandro .features-card img {
+    padding-bottom: 20px;
+}
+
+#leandro .money img {
+    border: 1px solid #306EFF;
+    background-color: white;
+    padding: 8px 5px 8px 5px;
+    border-radius: 40px;
+}
+
+#leandro .arrows img {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+    #leandro .features-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*
+* End Features Styling
+*/
