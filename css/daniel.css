@@ -1,0 +1,46 @@
+.input-group {
+    width: 90%;
+    margin: 10px auto;
+    height: 50px;
+}
+.input-group input{
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 5rem;
+    border-left: 0;
+}
+.input-group span{
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 5rem;
+    padding: 16px;
+    border-right: 0;
+}
+.btn{
+    border-radius: 5rem;
+    padding: .5rem 3.5rem;
+    font-weight: bold;
+}
+
+.btn-circle {
+    border-radius: 50% !important;
+    padding: .6rem 1rem;
+    font-size: 1.6rem;
+}
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    background: blue;
+    border-bottom-right-radius: 70% 100%;
+    overflow: hidden;
+}
+.btn-primary {
+    background: blue;
+}
+.btn-primary:hover {
+    background: #010166;
+}
+
