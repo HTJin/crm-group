@@ -1,0 +1,47 @@
+#jordan .page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 7em;
+}
+
+#jordan .learn-box {
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+height: 100%;
+}
+
+#jordan .image-box {
+display: flex;
+align-items: center;
+}
+#jordan .credit-pic {
+max-width: 100%;
+padding: 1em;
+}
+
+#jordan .info-col {
+background-color: #0850F8;
+border-top-right-radius: 40px;
+border-bottom-right-radius: 40px;
+max-height: 100%;
+padding-top: 6em;
+padding-bottom: 6em;
+}
+
+#jordan .content {
+display: flex;
+flex-direction: column;
+margin: 5%;
+width: 80%;
+padding-top: 3em;
+padding-bottom: 6em;
+}
+#jordan .content li {
+list-style-type: '- ';
+align-self: flex-start;
+margin-top: 1em;
+width: 67%;
+}
